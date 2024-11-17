@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\CPPCW1F.dir/objects.a
+C:\Users\ullah\Downloads\mingw64\bin\ar.exe qc CMakeFiles\CPPCW1F.dir/objects.a @CMakeFiles\CPPCW1F.dir\objects1.rsp
+C:\Users\ullah\Downloads\mingw64\bin\c++.exe -g -Wl,--whole-archive CMakeFiles\CPPCW1F.dir/objects.a -Wl,--no-whole-archive -o CPPCW1F.exe -Wl,--out-implib,libCPPCW1F.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CPPCW1F.dir\linkLibs.rsp
