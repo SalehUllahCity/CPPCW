@@ -1,3 +1,6 @@
+#include "stats.h" // done before other system headers to ensure that our header files
+// don't assume anything has been included
+
 #include <iostream>
 #include <fstream> // allows us to read from a file
 #include <iomanip>
@@ -10,16 +13,31 @@ using namespace std;
 
 int main()
 {
-    int count = 0;
+
+
     // read from the file
-    ifstream in("people.txt"); // declare a variable in of type istream, with the file name as the parameter
+    // ifstream in("people.txt.txt"); // declare a variable in of type istream, with the file name as the parameter
     // ifstream is an input file stream reads data in from a data file
     // ofstream is an output file stream out to a data file
-    string str;
-    while (in >> str)
-    {
-        cout << str << endl;
+    // string myText; // used to output the text file
+    // Create a text string, which is used to output the text file
+    string myText;
+
+    // Read from the text file
+    ifstream MyReadFile("people.txt");
+
+    // Use a while loop together with the getline() function to read the file line by line
+    while (getline (MyReadFile, myText)) {
+        // Output the text from the file
+        cout << myText << endl;
     }
+
+    // Close the file
+    MyReadFile.close();
+    // int test = 5;
+    // cout << test << endl;
+
+
     //if (in.is_open()) // ensures that the file is open before running the following code
     //{
     //}
@@ -59,13 +77,13 @@ int main()
 
 // Checklist and Notes
 
-// Your program should generate a statement for each person listed in people.txt and
+// Your program should generate a statement for each person listed in people.txt.txt and
 // print it to the standard output
 
 // For each statement, the first line should display the person's name, the following
 // lines should list the object they purchased along with the amount paid for each object
 // (one object per line).
-// The last line should print "Total : value", where value is the sum of all payments
+// The last line should print "Total : value", where value is the sum of all payments.txt
 // Example standard output is on the cwk file
 // It  should print:
 
@@ -91,15 +109,15 @@ Total: 3.5
 */
 
 // the program should validate the structure of the input files and display an appropriate
-// error message if any issues are found. e.g. if people.txt is empty - error message
-// the people.txt file is empty .
+// error message if any issues are found. e.g. if people.txt.txt is empty - error message
+// the people.txt.txt file is empty .
 
 // similar if there is a missing item in a line or
 
 // the payment is not a valid integer or floating point number, therefore do not need to validate
 
 // follow this format precisely with no additional output, this program will be ran
-// through automated tests using her own payments and people txt files with the same
+// through automated tests using her own payments.txt and people.txt txt files with the same
 // format an examples as above but may involve different data.
 
 // Your solution should make appropriate use of one class and at least one container

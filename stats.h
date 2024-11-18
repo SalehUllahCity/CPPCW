@@ -1,8 +1,13 @@
-//
-// Created by ullah on 17/11/2024.
-//
+#pragma once
+#ifndef GUARD_stats_h
+#define GUARD_stats_h
 
-#ifndef STATS_H
-#define STATS_H
+#include <ostream>
+#include <vector>
+
+
+
+
+
 
 #endif //STATS_H
