@@ -19,7 +19,7 @@ int main()
     // ifstream in("people.txt.txt"); // declare a variable in of type istream, with the file name as the parameter
     // ifstream is an input file stream reads data in from a data file
     // ofstream is an output file stream out to a data file
-    // string myText; // used to output the text file
+
     // Create a text string, which is used to output the text file
     string myText;
 
@@ -27,46 +27,18 @@ int main()
     ifstream MyReadFile("people.txt");
 
     // Use a while loop together with the getline() function to read the file line by line
-    while (getline (MyReadFile, myText)) {
-        // Output the text from the file
-        cout << myText << endl;
+    if (MyReadFile.is_open()) // ensures that the file is open before running the following code
+    {
+        while (getline (MyReadFile, myText)) {
+            // Output the text from the file
+            cout << myText << endl;
+        }
     }
 
     // Close the file
-    MyReadFile.close();
-    // int test = 5;
-    // cout << test << endl;
+    MyReadFile.close(); // ensures that the file is closed so that no further changes can be made accidentally
+    // also this saves memory
 
-
-    //if (in.is_open()) // ensures that the file is open before running the following code
-    //{
-    //}
-
-    //in.close(); // ensure that the file is closed so that no further changes can be made accidentally
-
-    /*
-    string s;
-    while (cin >> s)
-    {
-        cout << s << endl;
-    }
-
-
-
-
-    // reading from the input stream
-    cout << "Please enter a series of numbers\n";
-    count = 0;
-    while (cin >> x)
-    {
-        ++count;
-    }
-    cout << count << endl;
-
-    // to get the current precision use cout.precision()
-    int prec = cout.precision();
-    cout << "count precision: " << prec << endl;
-    */
 
 
     return 0;
@@ -77,7 +49,7 @@ int main()
 
 // Checklist and Notes
 
-// Your program should generate a statement for each person listed in people.txt.txt and
+// Your program should generate a statement for each person listed in people.txt and
 // print it to the standard output
 
 // For each statement, the first line should display the person's name, the following
