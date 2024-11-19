@@ -6,21 +6,21 @@
 #include <iomanip>
 #include <algorithm>
 #include <map>
+#include <string>
 /*
     Saleh Ullah C++ CW
     Checklist and notes at the bottom in comments
  */
 using namespace std;
+using vec_size = string::size_type;
 
 // call the functions from stats.h header file that are made in the stats.cpp + read_vector etc.
 
 int main()
 {
-    // read from the file
-    // ifstream in("people.txt.txt"); // declare a variable in of type istream, with the file name as the parameter
-    // ifstream is an input file stream reads data in from a data file
-    // ofstream is an output file stream out to a data file
-    /*
+    map<string, int> map; // an associative container
+
+
     // Create a text string, which is used to output the text file
     string myText;
 
@@ -39,36 +39,6 @@ int main()
     // Close the file
     MyReadFile.close(); // ensures that the file is closed so that no further changes can be made accidentally
     // also this saves memory
-    */
-
-    // count of occurrences of each word in the input
-    // count of occurrences of each word in the input
-
-    // count of occurrences of each word in the input
-    map<string, int> count;
-    // read input words, updating their counts
-    string w;
-    while (cin >> w)
-        ++count[w];
-
-    // write each word and its number of occurrences
-    for (const auto &p : count)
-        cout << p.first << '\t' << p.second << '\n';
-
-    // write each word and its number of occurrences
-    // for (const auto &p : count) {
-       //  cout << p.first << '\t' << p.second << '\n';
-        // essentially p<const string, int>
-        // first, a const of type string - key
-        // second - type of int - the value
-        // avoid using & to not copy the pair hence use const
-    // }
-
-
-
-
-
-
 
 
 
