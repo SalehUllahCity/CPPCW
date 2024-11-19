@@ -44,14 +44,16 @@ int main()
     // count of occurrences of each word in the input
     // count of occurrences of each word in the input
 
-    cout << "Please enter a series of numbers\n";
+    // count of occurrences of each word in the input
     map<string, int> count;
-    string s;
-    while (cin >> s)
-    {
-        ++count[s];
-    }
+    // read input words, updating their counts
+    string w;
+    while (cin >> w)
+        ++count[w];
 
+    // write each word and its number of occurrences
+    for (const auto &p : count)
+        cout << p.first << '\t' << p.second << '\n';
 
     // write each word and its number of occurrences
     // for (const auto &p : count) {
