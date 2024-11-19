@@ -11,6 +11,8 @@
  */
 using namespace std;
 
+// call the functions from stats.h header file that are made in the stats.cpp + read_vector etc.
+
 int main()
 {
 
