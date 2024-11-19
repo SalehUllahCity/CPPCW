@@ -5,6 +5,7 @@
 #include <fstream> // allows us to read from a file
 #include <iomanip>
 #include <algorithm>
+#include <map>
 /*
     Saleh Ullah C++ CW
     Checklist and notes at the bottom in comments
@@ -15,13 +16,11 @@ using namespace std;
 
 int main()
 {
-
-
     // read from the file
     // ifstream in("people.txt.txt"); // declare a variable in of type istream, with the file name as the parameter
     // ifstream is an input file stream reads data in from a data file
     // ofstream is an output file stream out to a data file
-
+    /*
     // Create a text string, which is used to output the text file
     string myText;
 
@@ -40,6 +39,36 @@ int main()
     // Close the file
     MyReadFile.close(); // ensures that the file is closed so that no further changes can be made accidentally
     // also this saves memory
+    */
+
+    // count of occurrences of each word in the input
+    // count of occurrences of each word in the input
+
+    cout << "Please enter a series of numbers\n";
+    int count = 0;
+    double x;
+    while (cin >> x)
+    {
+        ++count;
+    }
+    cout << count << endl;
+
+    // write each word and its number of occurrences
+    // for (const auto &p : count) {
+       //  cout << p.first << '\t' << p.second << '\n';
+        // essentially p<const string, int>
+        // first, a const of type string - key
+        // second - type of int - the value
+        // avoid using & to not copy the pair hence use const
+    // }
+
+
+
+
+
+
+
+
 
 
 
