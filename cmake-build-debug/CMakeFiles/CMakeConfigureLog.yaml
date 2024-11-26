@@ -4,16 +4,16 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
       - "CMakeLists.txt:2 (project)"
     message: |
       The system is: Windows - 10.0.26100 - AMD64
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
@@ -28,14 +28,14 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdC/a.exe
+        C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdC/a.exe
       
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
@@ -50,19 +50,19 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/a.exe
+        C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/3.30.5/CompilerIdCXX/a.exe
       
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g0e6io"
-      binary: "C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g0e6io"
+      source: "C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1fygft"
+      binary: "C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1fygft"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,13 +71,13 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g0e6io'
+        Change Dir: 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1fygft'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ullah/Downloads/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ad95d/fast
-        C:/Users/ullah/Downloads/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ad95d.dir\\build.make CMakeFiles/cmTC_ad95d.dir/build
-        mingw32-make[1]: Entering directory 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g0e6io'
-        Building C object CMakeFiles/cmTC_ad95d.dir/CMakeCCompilerABI.c.obj
-        C:\\Users\\ullah\\Downloads\\mingw64\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_ad95d.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ullah/Downloads/mingw64/bin/mingw32-make.exe -f Makefile cmTC_58110/fast
+        C:/Users/ullah/Downloads/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_58110.dir\\build.make CMakeFiles/cmTC_58110.dir/build
+        mingw32-make[1]: Entering directory 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1fygft'
+        Building C object CMakeFiles/cmTC_58110.dir/CMakeCCompilerABI.c.obj
+        C:\\Users\\ullah\\Downloads\\mingw64\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_58110.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\ullah\\Downloads\\mingw64\\bin\\gcc.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -86,8 +86,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.1.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ad95d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ad95d.dir\\'
-         C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/cc1.exe -quiet -v -iprefix C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/ -D_REENTRANT C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_ad95d.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\ullah\\AppData\\Local\\Temp\\ccJoPQ4N.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_58110.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_58110.dir\\'
+         C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/cc1.exe -quiet -v -iprefix C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/ -D_REENTRANT C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_58110.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\ullah\\AppData\\Local\\Temp\\ccR4zmP3.s
         GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) version 14.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.1.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -106,17 +106,17 @@ events:
          C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 759699b4f0b875c34fe570c605b298f9
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ad95d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ad95d.dir\\'
-         C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_ad95d.dir\\CMakeCCompilerABI.c.obj C:\\Users\\ullah\\AppData\\Local\\Temp\\ccJoPQ4N.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_58110.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_58110.dir\\'
+         C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_58110.dir\\CMakeCCompilerABI.c.obj C:\\Users\\ullah\\AppData\\Local\\Temp\\ccR4zmP3.s
         GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r3) 2.42
         COMPILER_PATH=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/;C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ad95d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ad95d.dir\\CMakeCCompilerABI.c.'
-        Linking C executable cmTC_ad95d.exe
-        "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ad95d.dir\\link.txt --verbose=1
-        "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ad95d.dir/objects.a
-        C:\\Users\\ullah\\Downloads\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_ad95d.dir/objects.a @CMakeFiles\\cmTC_ad95d.dir\\objects1.rsp
-        C:\\Users\\ullah\\Downloads\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_ad95d.dir/objects.a -Wl,--no-whole-archive -o cmTC_ad95d.exe -Wl,--out-implib,libcmTC_ad95d.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_58110.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_58110.dir\\CMakeCCompilerABI.c.'
+        Linking C executable cmTC_58110.exe
+        "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_58110.dir\\link.txt --verbose=1
+        "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_58110.dir/objects.a
+        C:\\Users\\ullah\\Downloads\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_58110.dir/objects.a @CMakeFiles\\cmTC_58110.dir\\objects1.rsp
+        C:\\Users\\ullah\\Downloads\\mingw64\\bin\\gcc.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_58110.dir/objects.a -Wl,--no-whole-archive -o cmTC_58110.exe -Wl,--out-implib,libcmTC_58110.dll.a -Wl,--major-image-version,0,--minor-image-version,0
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\ullah\\Downloads\\mingw64\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe
@@ -128,20 +128,20 @@ events:
         gcc version 14.1.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) 
         COMPILER_PATH=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/;C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ad95d.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ad95d.'
-         C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/collect2.exe -plugin C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ullah\\AppData\\Local\\Temp\\ccOO9rHs.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_ad95d.exe C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ad95d.dir/objects.a --no-whole-archive --out-implib libcmTC_ad95d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_58110.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_58110.'
+         C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/collect2.exe -plugin C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ullah\\AppData\\Local\\Temp\\cciOZWpc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_58110.exe C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_58110.dir/objects.a --no-whole-archive --out-implib libcmTC_58110.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o
         collect2 version 14.1.0
-        C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ullah\\AppData\\Local\\Temp\\ccOO9rHs.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_ad95d.exe C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ad95d.dir/objects.a --no-whole-archive --out-implib libcmTC_ad95d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o
+        C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ullah\\AppData\\Local\\Temp\\cciOZWpc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_58110.exe C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_58110.dir/objects.a --no-whole-archive --out-implib libcmTC_58110.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r3) 2.42
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ad95d.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ad95d.'
-        mingw32-make[1]: Leaving directory 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g0e6io'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_58110.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_58110.'
+        mingw32-make[1]: Leaving directory 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1fygft'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit include dir info: rv=done
@@ -162,20 +162,20 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g0e6io']
+        ignore line: [Change Dir: 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1fygft']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ullah/Downloads/mingw64/bin/mingw32-make.exe -f Makefile cmTC_ad95d/fast]
-        ignore line: [C:/Users/ullah/Downloads/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ad95d.dir\\build.make CMakeFiles/cmTC_ad95d.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-g0e6io']
-        ignore line: [Building C object CMakeFiles/cmTC_ad95d.dir/CMakeCCompilerABI.c.obj]
-        ignore line: [C:\\Users\\ullah\\Downloads\\mingw64\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_ad95d.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ullah/Downloads/mingw64/bin/mingw32-make.exe -f Makefile cmTC_58110/fast]
+        ignore line: [C:/Users/ullah/Downloads/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_58110.dir\\build.make CMakeFiles/cmTC_58110.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1fygft']
+        ignore line: [Building C object CMakeFiles/cmTC_58110.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\Users\\ullah\\Downloads\\mingw64\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_58110.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\ullah\\Downloads\\mingw64\\bin\\gcc.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -184,8 +184,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.1.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r3) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ad95d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ad95d.dir\\']
-        ignore line: [ C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/cc1.exe -quiet -v -iprefix C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/ -D_REENTRANT C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_ad95d.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\ullah\\AppData\\Local\\Temp\\ccJoPQ4N.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_58110.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_58110.dir\\']
+        ignore line: [ C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/cc1.exe -quiet -v -iprefix C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/ -D_REENTRANT C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\\cmTC_58110.dir\\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\ullah\\AppData\\Local\\Temp\\ccR4zmP3.s]
         ignore line: [GNU C17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r3) version 14.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.1.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -204,8 +204,8 @@ events:
         ignore line: [ C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 759699b4f0b875c34fe570c605b298f9]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ad95d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ad95d.dir\\']
-        ignore line: [ C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_ad95d.dir\\CMakeCCompilerABI.c.obj C:\\Users\\ullah\\AppData\\Local\\Temp\\ccJoPQ4N.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_58110.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_58110.dir\\']
+        ignore line: [ C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_58110.dir\\CMakeCCompilerABI.c.obj C:\\Users\\ullah\\AppData\\Local\\Temp\\ccR4zmP3.s]
         ignore line: [GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r3) 2.42]
         ignore line: [COMPILER_PATH=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/]
         ignore line: [C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/]
@@ -216,12 +216,12 @@ events:
         ignore line: [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib/]
         ignore line: [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_ad95d.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_ad95d.dir\\CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_ad95d.exe]
-        ignore line: ["C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ad95d.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ad95d.dir/objects.a]
-        ignore line: [C:\\Users\\ullah\\Downloads\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_ad95d.dir/objects.a @CMakeFiles\\cmTC_ad95d.dir\\objects1.rsp]
-        ignore line: [C:\\Users\\ullah\\Downloads\\mingw64\\bin\\gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_ad95d.dir/objects.a -Wl --no-whole-archive -o cmTC_ad95d.exe -Wl --out-implib libcmTC_ad95d.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_58110.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_58110.dir\\CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_58110.exe]
+        ignore line: ["C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_58110.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_58110.dir/objects.a]
+        ignore line: [C:\\Users\\ullah\\Downloads\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_58110.dir/objects.a @CMakeFiles\\cmTC_58110.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\ullah\\Downloads\\mingw64\\bin\\gcc.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_58110.dir/objects.a -Wl --no-whole-archive -o cmTC_58110.exe -Wl --out-implib libcmTC_58110.dll.a -Wl --major-image-version 0 --minor-image-version 0]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\ullah\\Downloads\\mingw64\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe]
@@ -240,13 +240,13 @@ events:
         ignore line: [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib/]
         ignore line: [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ad95d.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_ad95d.']
-        link line: [ C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/collect2.exe -plugin C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ullah\\AppData\\Local\\Temp\\ccOO9rHs.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_ad95d.exe C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_ad95d.dir/objects.a --no-whole-archive --out-implib libcmTC_ad95d.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_58110.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_58110.']
+        link line: [ C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/collect2.exe -plugin C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ullah\\AppData\\Local\\Temp\\cciOZWpc.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_58110.exe C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_58110.dir/objects.a --no-whole-archive --out-implib libcmTC_58110.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmingwex -lmsvcrt -lkernel32 C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
           arg [C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\ullah\\AppData\\Local\\Temp\\ccOO9rHs.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\ullah\\AppData\\Local\\Temp\\cciOZWpc.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
@@ -268,7 +268,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_ad95d.exe] ==> ignore
+          arg [cmTC_58110.exe] ==> ignore
           arg [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o] ==> obj [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o]
           arg [-LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0] ==> dir [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0]
@@ -279,10 +279,10 @@ events:
           arg [-LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../..] ==> dir [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_ad95d.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_58110.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_ad95d.dll.a] ==> ignore
+          arg [libcmTC_58110.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -328,9 +328,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-14.1.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-14.1.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe" "-v"
@@ -338,9 +338,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-14.1.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-14.1.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe" "-V"
@@ -348,9 +348,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the C compiler's linker: "Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-14.1.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-14.1.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe" "--version"
@@ -358,14 +358,14 @@ events:
   -
     kind: "try_compile-v1"
     backtrace:
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:67 (try_compile)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-klydj1"
-      binary: "C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-klydj1"
+      source: "C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4y88v9"
+      binary: "C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4y88v9"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -375,13 +375,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-klydj1'
+        Change Dir: 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4y88v9'
         
-        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ullah/Downloads/mingw64/bin/mingw32-make.exe -f Makefile cmTC_5bdc1/fast
-        C:/Users/ullah/Downloads/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5bdc1.dir\\build.make CMakeFiles/cmTC_5bdc1.dir/build
-        mingw32-make[1]: Entering directory 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-klydj1'
-        Building CXX object CMakeFiles/cmTC_5bdc1.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\Users\\ullah\\Downloads\\mingw64\\bin\\c++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_5bdc1.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ullah/Downloads/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1d64b/fast
+        C:/Users/ullah/Downloads/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1d64b.dir\\build.make CMakeFiles/cmTC_1d64b.dir/build
+        mingw32-make[1]: Entering directory 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4y88v9'
+        Building CXX object CMakeFiles/cmTC_1d64b.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\Users\\ullah\\Downloads\\mingw64\\bin\\c++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_1d64b.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\ullah\\Downloads\\mingw64\\bin\\c++.exe
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -390,8 +390,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 14.1.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_5bdc1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_5bdc1.dir\\'
-         C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/ -D_REENTRANT C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_5bdc1.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\ullah\\AppData\\Local\\Temp\\ccSQJpl4.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_1d64b.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1d64b.dir\\'
+         C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/ -D_REENTRANT C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_1d64b.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\ullah\\AppData\\Local\\Temp\\cckzNBFW.s
         GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) version 14.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 14.1.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
         
@@ -416,17 +416,17 @@ events:
          C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 45cc2c7312a2df452ee7c9683dbb6f2c
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_5bdc1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_5bdc1.dir\\'
-         C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_5bdc1.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\ullah\\AppData\\Local\\Temp\\ccSQJpl4.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_1d64b.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1d64b.dir\\'
+         C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_1d64b.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\ullah\\AppData\\Local\\Temp\\cckzNBFW.s
         GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r3) 2.42
         COMPILER_PATH=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/;C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_5bdc1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_5bdc1.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_5bdc1.exe
-        "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_5bdc1.dir\\link.txt --verbose=1
-        "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_5bdc1.dir/objects.a
-        C:\\Users\\ullah\\Downloads\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_5bdc1.dir/objects.a @CMakeFiles\\cmTC_5bdc1.dir\\objects1.rsp
-        C:\\Users\\ullah\\Downloads\\mingw64\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_5bdc1.dir/objects.a -Wl,--no-whole-archive -o cmTC_5bdc1.exe -Wl,--out-implib,libcmTC_5bdc1.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_1d64b.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1d64b.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_1d64b.exe
+        "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1d64b.dir\\link.txt --verbose=1
+        "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_1d64b.dir/objects.a
+        C:\\Users\\ullah\\Downloads\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_1d64b.dir/objects.a @CMakeFiles\\cmTC_1d64b.dir\\objects1.rsp
+        C:\\Users\\ullah\\Downloads\\mingw64\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_1d64b.dir/objects.a -Wl,--no-whole-archive -o cmTC_1d64b.exe -Wl,--out-implib,libcmTC_1d64b.dll.a -Wl,--major-image-version,0,--minor-image-version,0
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\ullah\\Downloads\\mingw64\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe
@@ -438,20 +438,20 @@ events:
         gcc version 14.1.0 (MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3) 
         COMPILER_PATH=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/;C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5bdc1.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5bdc1.'
-         C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/collect2.exe -plugin C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ullah\\AppData\\Local\\Temp\\ccQVbGZd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_5bdc1.exe C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_5bdc1.dir/objects.a --no-whole-archive --out-implib libcmTC_5bdc1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1d64b.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1d64b.'
+         C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/collect2.exe -plugin C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ullah\\AppData\\Local\\Temp\\ccasa44a.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1d64b.exe C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1d64b.dir/objects.a --no-whole-archive --out-implib libcmTC_1d64b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o
         collect2 version 14.1.0
-        C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ullah\\AppData\\Local\\Temp\\ccQVbGZd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_5bdc1.exe C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_5bdc1.dir/objects.a --no-whole-archive --out-implib libcmTC_5bdc1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o
+        C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ullah\\AppData\\Local\\Temp\\ccasa44a.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1d64b.exe C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1d64b.dir/objects.a --no-whole-archive --out-implib libcmTC_1d64b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o
         GNU ld (Binutils for MinGW-W64 x86_64, built by Brecht Sanders, r3) 2.42
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5bdc1.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5bdc1.'
-        mingw32-make[1]: Leaving directory 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-klydj1'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1d64b.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1d64b.'
+        mingw32-make[1]: Leaving directory 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4y88v9'
         
       exitCode: 0
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:137 (message)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit include dir info: rv=done
@@ -478,20 +478,20 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:173 (message)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
-        ignore line: [Change Dir: 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-klydj1']
+        ignore line: [Change Dir: 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4y88v9']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ullah/Downloads/mingw64/bin/mingw32-make.exe -f Makefile cmTC_5bdc1/fast]
-        ignore line: [C:/Users/ullah/Downloads/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5bdc1.dir\\build.make CMakeFiles/cmTC_5bdc1.dir/build]
-        ignore line: [mingw32-make[1]: Entering directory 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-klydj1']
-        ignore line: [Building CXX object CMakeFiles/cmTC_5bdc1.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\Users\\ullah\\Downloads\\mingw64\\bin\\c++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_5bdc1.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/bin/cmake.exe" -E env VERBOSE=1 C:/Users/ullah/Downloads/mingw64/bin/mingw32-make.exe -f Makefile cmTC_1d64b/fast]
+        ignore line: [C:/Users/ullah/Downloads/mingw64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_1d64b.dir\\build.make CMakeFiles/cmTC_1d64b.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'C:/IN2029 CPP/CPPCW/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4y88v9']
+        ignore line: [Building CXX object CMakeFiles/cmTC_1d64b.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\Users\\ullah\\Downloads\\mingw64\\bin\\c++.exe   -fdiagnostics-color=always   -v -o CMakeFiles\\cmTC_1d64b.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\ullah\\Downloads\\mingw64\\bin\\c++.exe]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -500,8 +500,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 14.1.0 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r3) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_5bdc1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_5bdc1.dir\\']
-        ignore line: [ C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/ -D_REENTRANT C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.29\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_5bdc1.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\ullah\\AppData\\Local\\Temp\\ccSQJpl4.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_1d64b.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1d64b.dir\\']
+        ignore line: [ C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/cc1plus.exe -quiet -v -iprefix C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/ -D_REENTRANT C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_1d64b.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\\Users\\ullah\\AppData\\Local\\Temp\\cckzNBFW.s]
         ignore line: [GNU C++17 (MinGW-W64 x86_64-ucrt-posix-seh  built by Brecht Sanders  r3) version 14.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 14.1.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
         ignore line: []
@@ -526,8 +526,8 @@ events:
         ignore line: [ C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 45cc2c7312a2df452ee7c9683dbb6f2c]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_5bdc1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_5bdc1.dir\\']
-        ignore line: [ C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_5bdc1.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\ullah\\AppData\\Local\\Temp\\ccSQJpl4.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_1d64b.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1d64b.dir\\']
+        ignore line: [ C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_1d64b.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\ullah\\AppData\\Local\\Temp\\cckzNBFW.s]
         ignore line: [GNU assembler version 2.42 (x86_64-w64-mingw32) using BFD version (Binutils for MinGW-W64 x86_64  built by Brecht Sanders  r3) 2.42]
         ignore line: [COMPILER_PATH=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/]
         ignore line: [C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/]
@@ -538,12 +538,12 @@ events:
         ignore line: [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib/]
         ignore line: [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_5bdc1.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_5bdc1.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_5bdc1.exe]
-        ignore line: ["C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_5bdc1.dir\\link.txt --verbose=1]
-        ignore line: ["C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_5bdc1.dir/objects.a]
-        ignore line: [C:\\Users\\ullah\\Downloads\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_5bdc1.dir/objects.a @CMakeFiles\\cmTC_5bdc1.dir\\objects1.rsp]
-        ignore line: [C:\\Users\\ullah\\Downloads\\mingw64\\bin\\c++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_5bdc1.dir/objects.a -Wl --no-whole-archive -o cmTC_5bdc1.exe -Wl --out-implib libcmTC_5bdc1.dll.a -Wl --major-image-version 0 --minor-image-version 0]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\\cmTC_1d64b.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\\cmTC_1d64b.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_1d64b.exe]
+        ignore line: ["C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_1d64b.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\JetBrains\\CLion 2024.2.2\\bin\\cmake\\win\\x64\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_1d64b.dir/objects.a]
+        ignore line: [C:\\Users\\ullah\\Downloads\\mingw64\\bin\\ar.exe qc CMakeFiles\\cmTC_1d64b.dir/objects.a @CMakeFiles\\cmTC_1d64b.dir\\objects1.rsp]
+        ignore line: [C:\\Users\\ullah\\Downloads\\mingw64\\bin\\c++.exe  -v -Wl -v -Wl --whole-archive CMakeFiles\\cmTC_1d64b.dir/objects.a -Wl --no-whole-archive -o cmTC_1d64b.exe -Wl --out-implib libcmTC_1d64b.dll.a -Wl --major-image-version 0 --minor-image-version 0]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\ullah\\Downloads\\mingw64\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe]
@@ -562,13 +562,13 @@ events:
         ignore line: [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib/]
         ignore line: [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5bdc1.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_5bdc1.']
-        link line: [ C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/collect2.exe -plugin C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ullah\\AppData\\Local\\Temp\\ccQVbGZd.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_5bdc1.exe C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_5bdc1.dir/objects.a --no-whole-archive --out-implib libcmTC_5bdc1.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1d64b.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_1d64b.']
+        link line: [ C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/collect2.exe -plugin C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/liblto_plugin.dll -plugin-opt=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ullah\\AppData\\Local\\Temp\\ccasa44a.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep -Bdynamic -o cmTC_1d64b.exe C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0 -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_1d64b.dir/objects.a --no-whole-archive --out-implib libcmTC_1d64b.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtend.o]
           arg [C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/Users/ullah/Downloads/mingw64/bin/../libexec/gcc/x86_64-w64-mingw32/14.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\ullah\\AppData\\Local\\Temp\\ccQVbGZd.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\ullah\\AppData\\Local\\Temp\\ccasa44a.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -590,7 +590,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_5bdc1.exe] ==> ignore
+          arg [cmTC_1d64b.exe] ==> ignore
           arg [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o] ==> obj [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/crtbegin.o]
           arg [-LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0] ==> dir [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0]
@@ -601,10 +601,10 @@ events:
           arg [-LC:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../..] ==> dir [C:/Users/ullah/Downloads/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/14.1.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_5bdc1.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_1d64b.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_5bdc1.dll.a] ==> ignore
+          arg [libcmTC_1d64b.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -649,9 +649,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-14.1.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-14.1.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe" "-v"
@@ -659,9 +659,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-14.1.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-14.1.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe" "-V"
@@ -669,9 +669,9 @@ events:
   -
     kind: "message-v1"
     backtrace:
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake:210 (cmake_determine_linker_id)"
-      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/JetBrains/CLion 2024.2.2/bin/cmake/win/x64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
       Running the CXX compiler's linker: "Configured with: ../configure --prefix=/R/winlibs64ucrt_stage/inst_gcc-14.1.0/share/gcc --build=x86_64-w64-mingw32 --host=x86_64-w64-mingw32 --enable-offload-targets=nvptx-none --with-pkgversion='MinGW-W64 x86_64-ucrt-posix-seh, built by Brecht Sanders, r3' --with-tune=generic --enable-checking=release --enable-threads=posix --disable-sjlj-exceptions --disable-libunwind-exceptions --disable-serial-configure --disable-bootstrap --enable-host-shared --enable-plugin --disable-default-ssp --disable-rpath --disable-libstdcxx-debug --disable-version-specific-runtime-libs --with-stabs --disable-symvers --enable-languages=c,c++,fortran,lto,objc,obj-c++ --disable-gold --disable-nls --disable-stage1-checking --disable-win32-registry --disable-multilib --enable-ld --enable-libquadmath --enable-libada --enable-libssp --enable-libstdcxx --enable-lto --enable-fully-dynamic-string --enable-libgomp --enable-graphite --enable-mingw-wildcard --enable-libstdcxx-time --enable-libstdcxx-pch --with-mpc=/d/Prog/winlibs64ucrt_stage/custombuilt --with-mpfr=/d/Prog/winlibs64ucrt_stage/custombuilt --with-gmp=/d/Prog/winlibs64ucrt_stage/custombuilt --with-isl=/d/Prog/winlibs64ucrt_stage/custombuilt --disable-libstdcxx-backtrace --enable-install-libiberty --enable-__cxa_atexit --without-included-gettext --with-diagnostics-color=auto --enable-clocale=generic --with-libiconv --with-system-zlib --with-build-sysroot=/R/winlibs64ucrt_stage/gcc-14.1.0/build_mingw/mingw-w64 CFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -I/d/Prog/winlibs64ucrt_stage/custombuilt/include/libdl-win32   -march=nocona -msahf -mtune=generic -O2 -Wno-error=format' CXXFLAGS='-D__USE_MINGW_ANSI_STDIO=0 -Wno-int-conversion  -march=nocona -msahf -mtune=generic -O2' LDFLAGS='-pthread -Wl,--no-insert-timestamp -Wl,--dynamicbase -Wl,--high-entropy-va -Wl,--nxcompat -Wl,--tsaware' LD=/d/Prog/winlibs64ucrt_stage/custombuilt/share/binutils/bin/ld.exe" "--version"

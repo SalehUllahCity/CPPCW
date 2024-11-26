@@ -1,4 +1,4 @@
-#include "stats.h" // done before other system headers to ensure that our header files
+#include "people.h" // done before other system headers to ensure that our header files
 // don't assume anything has been included
 
 #include <iostream>

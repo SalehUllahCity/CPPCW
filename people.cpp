@@ -1,4 +1,4 @@
-#include "stats.h"
+#include "people.h"
 #include <vector>
 #include <algorithm>
 #include <stdexcept>
