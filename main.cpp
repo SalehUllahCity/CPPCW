@@ -54,6 +54,7 @@ int main()
         return 1;
     }
 
+    string line; // left off here
 
 
     // close both files to ensure no further edits are made etc.
