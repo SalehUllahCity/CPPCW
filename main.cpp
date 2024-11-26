@@ -1,6 +1,5 @@
 #include "people.h" // done before other system headers to ensure that our header files
 // don't assume anything has been included
-
 #include <iostream>
 #include <fstream> // allows us to read from a file
 #include <iomanip>
@@ -18,31 +17,46 @@ using vec_size = string::size_type;
 
 int main()
 {
-    map<string, int> map; // an associative container
+    // read the file
+    ifstream peopleFile("people.txt");
 
+    // domain error for quantitative and cerr for qualitative
+    // std::cout << std::endl inserts a new line and flushes the stream(output buffer), whereas std::cout << “\n” just inserts a new line.
 
-    // Create a text string, which is used to output the text file
-    string myText;
-
-    // Read from the text file
-    ifstream MyReadFile("people.txt");
-
-    // Use a while loop together with the getline() function to read the file line by line
-    if (MyReadFile.is_open()) // ensures that the file is open before running the following code
+    if (!peopleFile.is_open())
     {
-        while (getline (MyReadFile, myText)) {
-            // Output the text from the file
-            cout << myText << endl;
+        cerr << "Error: Could not open people.txt file" << endl;
+        return 1;
+    }
+
+    // getline() is an in-built function defined in the <string. h> header file that allows accepting and reading single and multiple line strings from the input stream.
+
+    vector<People> people;;
+    string personName;
+    while (getline(peopleFile, personName))
+    {
+        if (!personName.empty())
+        {
+            people.emplace_back(personName); // If the vector type is class or struct, emplace_back is more efficient than push_back.
         }
     }
 
-    // Close the file
-    MyReadFile.close(); // ensures that the file is closed so that no further changes can be made accidentally
-    // also this saves memory
+    if (people.empty())
+    {
+        cerr << "Error: people.txt file is empty" << endl;
+    }
+
+    // reading payment.txt file
+    ifstream paymentsFile("payments.txt");
+    if (!paymentsFile.is_open())
+    {
+        cerr << "Error: Could not open payments.txt file" << endl;
+        return 1;
+    }
 
 
 
-
+    // close both files to ensure no further edits are made etc.
 
     return 0;
 }
