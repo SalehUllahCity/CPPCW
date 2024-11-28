@@ -41,6 +41,7 @@ int main()
         }
     }
 
+
     if (people.empty())
     {
         cerr << "Error: people.txt file is empty" << endl;
@@ -55,6 +56,47 @@ int main()
     }
 
     string line; // left off here
+    while (getline(paymentsFile, line)) {
+        istringstream iss(line);
+        string person, item, priceStr;
+        float price;
+
+
+        // for each line of payments.txt
+        if(!(iss >> person >> item >> priceStr)) {
+            cerr << "Error: Could not parse payments.txt file" << endl;
+            return 1;
+        }
+
+        // validate that the price is a valid number
+
+        if (!isValidNumber(priceStr)) {
+            cerr << "Error: Invalid price value.";
+            return 1;
+        }
+
+        price = stod(priceStr); // Parses str interpreting its content as a floating-point number, which is returned
+        // as a value of type double.
+
+        // Find the person in the list and add their purchase
+        bool personFound = false;
+        for (People &p : people) {
+            if (p.name == person) {
+                p.addPurchase(item, price);
+                personFound = true;
+                break;
+            }
+        }
+        // If person is not found in people.txt, we ignore their entry in payments.txt
+        if (!personFound) {
+            continue;  // Just ignore if a person not listed in people.txt is found in payments.txt
+        }
+    }
+    // Output each person's statement
+    for (const People &p : people) {
+        p.printStatement();
+    }
+
 
 
     // close both files to ensure no further edits are made etc.

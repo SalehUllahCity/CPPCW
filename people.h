@@ -45,7 +45,7 @@ public: // may change to private - data members as private
 
 };
 
-
+bool isValidNumber(const std::string &s);
 
 
 
