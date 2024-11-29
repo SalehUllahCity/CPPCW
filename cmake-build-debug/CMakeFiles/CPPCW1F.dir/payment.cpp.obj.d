@@ -1,4 +1,4 @@
-CMakeFiles/CPPCW1F.dir/main.cpp.obj: C:\IN2029\ CPP\CPPCW\main.cpp \
+CMakeFiles/CPPCW1F.dir/payment.cpp.obj: C:\IN2029\ CPP\CPPCW\payment.cpp \
  C:\IN2029\ CPP\CPPCW\payment.h \
  C:/Users/ullah/Downloads/mingw64/include/c++/14.1.0/ostream \
  C:/Users/ullah/Downloads/mingw64/include/c++/14.1.0/bits/requires_hosted.h \

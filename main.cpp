@@ -1,25 +1,23 @@
-#include "people.h" // done before other system headers to ensure that our header files
+#include "payment.h" // done before other system headers to ensure that our header files
 // don't assume anything has been included
 #include <iostream>
 #include <fstream> // allows us to read from a file
 #include <iomanip>
-#include <algorithm>
-#include <map>
 #include <string>
 /*
     Saleh Ullah C++ CW
     Checklist and notes at the bottom in comments
  */
 using namespace std;
-using vec_size = string::size_type;
 
 // call the functions from stats.h header file that are made in the stats.cpp + read_vector etc.
 
 int main()
 {
+    // const string paymentsFile = "payments.txt";
+    // const string peopleFile = "people.txt";
     // read the file
     ifstream peopleFile("people.txt");
-
     // domain error for quantitative and cerr for qualitative
     // std::cout << std::endl inserts a new line and flushes the stream(output buffer), whereas std::cout << “\n” just inserts a new line.
 
@@ -31,40 +29,40 @@ int main()
 
     // getline() is an in-built function defined in the <string. h> header file that allows accepting and reading single and multiple line strings from the input stream.
 
-    vector<People> people;;
+    vector<Consumer> people;;
     string personName;
     while (getline(peopleFile, personName))
     {
         if (!personName.empty())
         {
-            people.emplace_back(personName); // If the vector type is class or struct, emplace_back is more efficient than push_back.
+            // people.emplace_back(personName); // If the vector type is class or struct, emplace_back is more efficient than push_back.
+            people.emplace_back(personName);
         }
     }
 
 
-    if (people.empty())
-    {
-        cerr << "Error: people.txt file is empty" << endl;
+    if (people.empty()) {
+        cerr << "Error: The people.txt file is empty" << endl;
     }
 
     // reading payment.txt file
     ifstream paymentsFile("payments.txt");
     if (!paymentsFile.is_open())
     {
-        cerr << "Error: Could not open payments.txt file" << endl;
+        cerr << "Error: Could not open payments.txt file." << endl;
         return 1;
     }
 
-    string line; // left off here
+    string line;
     while (getline(paymentsFile, line)) {
         istringstream iss(line);
         string person, item, priceStr;
-        float price;
+        double price;
 
 
         // for each line of payments.txt
         if(!(iss >> person >> item >> priceStr)) {
-            cerr << "Error: Could not parse payments.txt file" << endl;
+            cerr << "Error: The line is missing an item or invalid price." << endl;
             return 1;
         }
 
@@ -80,7 +78,7 @@ int main()
 
         // Find the person in the list and add their purchase
         bool personFound = false;
-        for (People &p : people) {
+        for (Consumer &p : people) {
             if (p.name == person) {
                 p.addPurchase(item, price);
                 personFound = true;
@@ -93,7 +91,7 @@ int main()
         }
     }
     // Output each person's statement
-    for (const People &p : people) {
+    for (const Consumer &p : people) {
         p.printStatement();
     }
 

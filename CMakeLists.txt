@@ -4,5 +4,5 @@ project(CPPCW1F)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(CPPCW1F main.cpp
-        people.cpp
-        people.h)
+        payment.cpp
+        payment.h)

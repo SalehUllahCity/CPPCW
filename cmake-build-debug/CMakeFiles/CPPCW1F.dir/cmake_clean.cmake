@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CPPCW1F.dir/main.cpp.obj"
   "CMakeFiles/CPPCW1F.dir/main.cpp.obj.d"
-  "CMakeFiles/CPPCW1F.dir/people.cpp.obj"
-  "CMakeFiles/CPPCW1F.dir/people.cpp.obj.d"
+  "CMakeFiles/CPPCW1F.dir/payment.cpp.obj"
+  "CMakeFiles/CPPCW1F.dir/payment.cpp.obj.d"
   "CPPCW1F.exe"
   "CPPCW1F.exe.manifest"
   "CPPCW1F.pdb"

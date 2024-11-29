@@ -113,12 +113,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "people.cpp",
+			"path" : "payment.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"path" : "people.h",
+			"path" : "payment.h",
 			"sourceGroupIndex" : 1
 		}
 	],
