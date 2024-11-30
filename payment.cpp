@@ -28,7 +28,7 @@ void readPaymentsFile(const string &fileName)
     while (getline(paymentsFile, line)) {
         istringstream iss(line);
         string person, item, priceStr;
-        double price;
+        // double price;
 
 
         // for each line of payments.txt
@@ -44,7 +44,7 @@ void readPaymentsFile(const string &fileName)
 
         }
 
-        price = stod(priceStr); // Parses str interpreting its content as a floating-point number, which is returned
+        // price = stod(priceStr); // Parses str interpreting its content as a floating-point number, which is returned
         // as a value of type double.
     }
 }
